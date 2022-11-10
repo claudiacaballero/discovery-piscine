@@ -1,0 +1,39 @@
+div{
+	height: 100vh;
+	overflow: hidden;
+}
+
+.parallax1{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("https://www.purina.es/sites/default/files/2021-12/Welcoming_hero.jpg");
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.no-parallax{
+	background-color: black;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.parallax2{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("https://www.santevet.es/uploads/images/es_ES/articulos/ojosgato.jpeg");
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+p{
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+}

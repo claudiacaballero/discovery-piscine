@@ -1,0 +1,49 @@
+body{
+	background-color: #2f8ea8;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+button{
+	cursor: pointer;
+	border-radius: 50px;
+	font-size: 25px;
+	margin-top: 50%;
+	margin-bottom: 50%;
+}
+
+.dropdown {
+	display: inline-block;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	margin-top: 50%;	
+	margin-bottom: 50%;
+}
+
+.dropdown-options{
+	position: relative;
+	display: none;
+	overflow: auto;
+	text-align: center;
+	align-items: center;
+	background-color: white;
+
+}
+
+.dropdown:hover .dropdown-options{
+	display: block;
+}
+
+.dropdown-options p {
+	display: block;
+	color: black;
+	background-color: white;
+}
+
+.dropdown-options p:hover {
+	color: grey;
+}

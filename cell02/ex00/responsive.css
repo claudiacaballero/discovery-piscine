@@ -1,0 +1,21 @@
+table{
+	border-collapse: collapse;
+	align: center;
+	width: 100%;
+}
+
+td{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	vertical-align: middle;
+}
+
+.col1
+{
+	background-color: pink;
+}
+
+.col2
+{
+	background-color: green;
+}

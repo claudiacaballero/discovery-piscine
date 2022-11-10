@@ -1,0 +1,13 @@
+#balloon{
+	height: 200px;
+	width: 200px;
+
+	border-radius: 100%;
+}
+
+body{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	margin: 40vh auto 40vh auto;
+}
