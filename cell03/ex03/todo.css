@@ -1,0 +1,12 @@
+body {
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+
+#ft_list{
+	position: relative;
+	align-items: center;
+	justify-content: center;
+}
+

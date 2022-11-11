@@ -1,9 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta charset="UTF-8">
 	<link rel="stylesheet" href="calc.css" />
+	<script src="calc.js"></script>
 </head>
 <body>
-	
+	<div>
+		<script>
+			setInterval(function(){
+				alert("Please, use me...");
+			}, 30000);
+		</script>
+		<div class="calc">
+			<input type="number" id="first"/>
+			<select id="operand">
+				<option>+</option>
+				<option>-</option>
+				<option>*</option>
+				<option>/</option>
+				<option>%</option>
+			</select>
+			<input type="number" id="second"/>
+			<button onclick="calculator()">
+				Try Me!
+			</button>
+		</div>
+	</div>
 </body>
 </html>

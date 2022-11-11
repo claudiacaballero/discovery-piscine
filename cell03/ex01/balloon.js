@@ -32,4 +32,14 @@ function shrink(){
 		blln.style.height = (size - 5) + "px";
 		blln.style.width = (size - 5) + "px";
 	}
+	let color = blln.style.backgroundColor;
+	if (color == "green") {
+		blln.style.backgroundColor = "red";
+	}
+	else if (color == "blue") {
+		blln.style.backgroundColor = "green";
+	}
+	else if (color == "red") {
+		blln.style.backgroundColor = "blue";
+	}
 }

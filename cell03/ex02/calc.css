@@ -1,0 +1,30 @@
+body{
+	align-items: center;
+	justify-content: center;
+	margin: 20vh auto 20vh auto;
+	background-color: black;
+}
+
+.calc{
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	margin: auto;
+}
+
+input{
+	background-color: white;
+	align-items: center;
+	justify-content: center;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+button{
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	background-color: rgb(158, 111, 174);
+	color: #fff;
+}
